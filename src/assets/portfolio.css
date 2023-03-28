@@ -1,0 +1,21 @@
+.portfolio-header {
+  background-color: #282c34;
+  display: flex;
+  font-size: calc(10px + 2vmin);
+  margin: 25px 15px;
+  min-height: 10%;
+  color: white;
+}
+
+.App-header {
+  background-color: #282c34;
+  display: flex;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App {
+  text-align: center;
+  min-height: 100vh;
+  background-color: lightgray;
+}

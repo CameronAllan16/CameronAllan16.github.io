@@ -1,21 +1,19 @@
-import  "../assets/styles.css"
+import  "../assets/portfolio.css"
+import Projects from "./Projects"
+import About from "./About"
+import Footer from "./Footer"
 
 function Portfolio() {
     return (
       <div className="App">
-        <header className="App-header">
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
+        <header className="App-header" >
+          <p className="portfolio-header">
+            Cameron Allan
           </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
         </header>
+        <About />
+        <Projects />
+        <Footer />
       </div>
     );
   }
