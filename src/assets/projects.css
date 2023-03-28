@@ -1,0 +1,9 @@
+.projects-header-container {
+
+}
+
+.projects-header {
+    margin: 100px 100px;
+    display: flex;
+    margin-left: 45px;
+}
