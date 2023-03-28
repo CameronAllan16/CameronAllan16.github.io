@@ -1,15 +1,14 @@
-import logo from './assets/logo.svg';
 import './assets/App.css';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import Portfolio from './components/Portfolio';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <p className="header">
-          Cameron Allan
-        </p>
-      </header>
-    </div>
+    <BrowserRouter>
+      <Routes>
+          <Route path="/" element={<Portfolio/>} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 
