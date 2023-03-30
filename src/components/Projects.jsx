@@ -4,10 +4,13 @@ function Projects() {
     return (
       <div className="Projects">
         <header className="Projects-header-container" >
-          <p className="projects-header">
+          <h1 className="projects-header">
             These are my projects
-          </p>
+          </h1>
         </header>
+        <div className="projects-body">
+          <p className="projects-description">This is where projects will go.</p>
+        </div>
       </div>
     );
   }

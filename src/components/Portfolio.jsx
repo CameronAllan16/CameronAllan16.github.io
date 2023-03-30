@@ -11,6 +11,9 @@ function Portfolio() {
             Cameron Allan
           </p>
         </header>
+        <div className="subHeader">
+          <p className="subheader-content">Subheader will be here.</p>
+        </div>
         <About />
         <Projects />
         <Footer />
