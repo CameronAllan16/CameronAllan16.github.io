@@ -1,0 +1,46 @@
+.subheader {
+    position: relative;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-align: center;
+  }
+  
+  .subheader-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+  }
+  
+  .subheader-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: blur(2px);
+  }
+  
+  .subheader-text {
+    position: relative;
+    z-index: 1;
+  }
+  
+  .subheader-text h2 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .subheader-text p {
+    font-size: 1.25rem;
+  }
+
+  .subheader-name {
+    position: absolute;
+    top: 5px;
+    left: 20px;
+    font-size: 2rem;
+  }
