@@ -1,5 +1,10 @@
 .about-header {
-    margin: 100px 100px;
+    margin: 50px 100px;
     display: flex;
     margin-left: 45px;
+}
+
+.about-description {
+    margin: 100px 80px;
+    display: flex;
 }

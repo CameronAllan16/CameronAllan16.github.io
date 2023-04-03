@@ -7,3 +7,8 @@
     display: flex;
     margin-left: 45px;
 }
+
+.projects-description {
+    margin: 100px 80px;
+    display: flex;
+}
