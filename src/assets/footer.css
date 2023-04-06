@@ -1,20 +1,38 @@
-.footer-content-container{
-    bottom: 0;
-    position: relative;
-    display: flex;
-    gap: 20%;
-    margin: 25px 0 0 20px;
-    background-color: #282c34;
-
+.footer-content-container {
+  bottom: 0;
+  position: relative;
 }
 
-.footer{
-    background-color: #282c34;
+.footer {
+  font-size: calc(10px + 2vmin);
+  min-height: 10%;
+  width: 100%;
+  color: white;
+  bottom: 0;
+  position: sticky;
+}
+
+.footer-headline {
+  display: block;
+  width: 75%;
+}
+
+.socials{
     display: flex;
-    font-size: calc(10px + 2vmin);
-    min-height: 10%;
-    width: 100%;
-    color: white;
-    bottom: 0;
-    position: absolute;
+    justify-content: center;
+    gap: 5%;
+}
+
+.link {
+    text-decoration: none;
+    color: royalblue;
+}
+
+.link:hover{
+    color: antiquewhite;
+    text-decoration: underline;
+}
+
+.phone-number{
+    color: royalblue;
 }
