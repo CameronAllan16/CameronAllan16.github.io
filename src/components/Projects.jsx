@@ -1,18 +1,25 @@
-import  "../assets/projects.css"
+import "../assets/projects.css";
 
 function Projects() {
-    return (
-      <div className="Projects">
-        <header className="Projects-header-container" >
-          <h1 className="projects-header">
-            These are my projects
-          </h1>
-        </header>
-        <div className="projects-body">
-          <p className="projects-description">This is where projects will go.</p>
+  return (
+    <div className="Projects">
+      <h2 className="section-title">My Work</h2>
+      <div className="row">
+        <div className="col-sm-6">
+          <img className="project-image" src="image-1.jpg" alt="Image 1" />
+          <h3>Estate Vault</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+        <div className="col-sm-6">
+          <img className="project-image" src="image-2.jpg" alt="Image 2" />
+          <h3>Cooking Assistant</h3>
+          <p>
+            Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </p>
         </div>
       </div>
-    );
-  }
+    </div>
+  );
+}
 
-  export default Projects;
+export default Projects;
