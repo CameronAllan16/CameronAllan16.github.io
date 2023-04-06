@@ -1,10 +1,38 @@
-.about-header {
-    margin: 50px 100px;
+.about {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px 0;
+  }
+  
+  .section-title {
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 30px;
+  }
+  
+  .row {
     display: flex;
-    margin-left: 45px;
-}
-
-.about-description {
-    margin: 100px 80px;
-    display: flex;
-}
+    flex-wrap: wrap;
+    margin: 0 -15px;
+  }
+  
+  .col-md-6 {
+    width: calc(50% - 30px);
+    margin: 0 15px 30px;
+  }
+  
+  .profile-image {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  h3 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  p {
+    font-size: 1rem;
+    margin-bottom: 10px;
+  }
