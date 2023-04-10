@@ -7,7 +7,7 @@ function About() {
       <h2 className="section-title">About Me</h2>
       <div className="row">
         <div className="col-md-6">
-          <img className="profile-image" src={ProfileImage} alt="Image of me" />
+          <img className="profile-image" src={ProfileImage} alt="Cameron Allan" />
         </div>
         <div className="col-md-6">
           <h3>Hi, I'm Cameron Allan</h3>
