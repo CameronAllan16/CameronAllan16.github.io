@@ -25,6 +25,9 @@ function Footer() {
                 alt="Linkedin"
               />
             </a>
+            <a href="https://www.shutterstock.com/g/Cameron+Allan?_gl=1*ff2lww*_ga*MTA5NTA3MTY3MC4xNjgxMTgxMTQw*_ga_5JRYE4Y8J9*MTY4MTE4MTE0MC4xLjEuMTY4MTE4MTQ0Ny40MC4wLjA.*_fplc*WXphV09SR0hod2xrb3RuTnNLalEyV0t4dktxTzBVOVJEdFV4VU8lMkY5Sk5UOXl6YXVveTQ0N3d0bERnZkZURFU1NjRKVWx3UXZZTnlHNDJKbFh6bXl4d3hJQ0swOUdiQU91dWUxOVN6QzlhYXdOU3FMdERLcjhuRVQ2bXNrcWclM0QlM0Q.&rid=250349332">
+              <p>This is my shutterstock</p>
+            </a>
             <p className="phone-number">317-900-6507</p>
         </div>
       </div>
