@@ -26,7 +26,7 @@ function Footer() {
               />
             </a>
             <a href="https://www.shutterstock.com/g/Cameron+Allan?_gl=1*ff2lww*_ga*MTA5NTA3MTY3MC4xNjgxMTgxMTQw*_ga_5JRYE4Y8J9*MTY4MTE4MTE0MC4xLjEuMTY4MTE4MTQ0Ny40MC4wLjA.*_fplc*WXphV09SR0hod2xrb3RuTnNLalEyV0t4dktxTzBVOVJEdFV4VU8lMkY5Sk5UOXl6YXVveTQ0N3d0bERnZkZURFU1NjRKVWx3UXZZTnlHNDJKbFh6bXl4d3hJQ0swOUdiQU91dWUxOVN6QzlhYXdOU3FMdERLcjhuRVQ2bXNrcWclM0QlM0Q.&rid=250349332">
-              <p>This is my shutterstock</p>
+              <img className="shutterstock-icon" src=" data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAMAAACdt4HsAAAAA3NCSVQICAjb4U/gAAAACXBIWXMAAAI7AAACOwEsccu1AAAAGXRFWHRTb2Z0d2FyZQB3d3cuaW5rc2NhcGUub3Jnm+48GgAAAGxQTFRF/////wAA/xIA/yIA/yAA/xoA/xYA/xsF/xkE/xoE/xgD/xkD/xkD/xkD/xsC/xsE/xsE/xsD/xoD/xoD/xkD/xoD/xoD/xkD/xoD/xoC/xoC/xsC/xoD/xoD/xoD/xoD/xoD/xoD/xoD/xoDodBOmwAAACN0Uk5TAAEODxAUFzA9RElRXWV8j5CZnamrsLS1w8/Q0+Hp6/Dx9f2DhrWuAAAA0ElEQVRYw+3Xxw7DIBAE0LXjgnvccS/8/z/mApai5AKjXGLmzhMSK1ZDxPghDHNwRsROAeRkxAUUTgcGHCTAWOATGMos9B4qky6wJPSWUROofYKAiggCZhcEIsKAjkAgR4FYHnLi4qmy6gCBBFLDSdzVtRtDYFNAa4E7A7sn09u98PdArx57NwRaNW6bBe4MNAowHaRUng90Rnm9dm0ROxKIdYDxy97PUaADgUhggDuDQCUgwK8FBCSL7pc2eVfCrBzsXvgBABdPuPrC5Rut/y/hPOsnM0XgrgAAAABJRU5ErkJggg==" alt="Shutterstock"/>
             </a>
             <p className="phone-number">317-900-6507</p>
         </div>
