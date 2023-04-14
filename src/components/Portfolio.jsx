@@ -7,9 +7,9 @@ import Subheader from "./SubHeader";
 function Portfolio() {
   return (
     <div className="App">
-      <Subheader name="Cameron Allan" />
-      <About />
-      <Projects />
+      <Subheader id="top" name="Cameron Allan" />
+      <About id="about"/>
+      <Projects id="projects" />
       <Footer />
     </div>
   );
