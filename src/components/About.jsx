@@ -1,9 +1,12 @@
 import "../assets/about.css";
 import ProfileImage from "../assets/pic-of-me.JPG";
+import NavBar from "./NavBar";
+import Footer from "./Footer";
 
 function About() {
   return (
     <div className="about">
+      <NavBar/>
       <h2 className="section-title">About Me</h2>
       <div className="row">
         <div className="col-md-6">
@@ -16,6 +19,7 @@ function About() {
           <p>When I'm not coding, you can find me spending time with my family, playing video games, and exploring the world of photography.</p>
         </div>
       </div>
+      <Footer />
     </div>
   );
 }
