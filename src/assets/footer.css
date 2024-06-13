@@ -9,7 +9,7 @@
   width: 100%;
   color: white;
   bottom: 0;
-  position: sticky;
+  position: fixed;
 }
 
 .footer-headline {
@@ -17,30 +17,29 @@
   width: 75%;
 }
 
-.socials{
-    display: flex;
-    justify-content: center;
-    gap: 5%;
+.socials {
+  display: flex;
+  justify-content: center;
+  gap: 5%;
 }
 
 .link {
-    text-decoration: none;
-    color: royalblue;
+  text-decoration: none;
+  color: royalblue;
 }
 
-.link:hover{
-    color: antiquewhite;
-    text-decoration: underline;
+.link:hover {
+  color: antiquewhite;
+  text-decoration: underline;
 }
 
-.phone-number{
-    color: royalblue;
+.phone-number {
+  color: royalblue;
 }
 
 .shutterstock-icon {
   width: 32px;
 }
-
 
 .svg-icon {
   width: 1em;
