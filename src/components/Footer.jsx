@@ -7,7 +7,9 @@ function Footer() {
       <div className="footer-content-container">
         <div className="socials">
             <a className="link" href="mailto:camallan16@gmail.com">
-              <p> camallan16@gmail.com</p>
+            <svg class="svg-icon" viewBox="0 0 20 20">
+							<path d="M17.388,4.751H2.613c-0.213,0-0.389,0.175-0.389,0.389v9.72c0,0.216,0.175,0.389,0.389,0.389h14.775c0.214,0,0.389-0.173,0.389-0.389v-9.72C17.776,4.926,17.602,4.751,17.388,4.751 M16.448,5.53L10,11.984L3.552,5.53H16.448zM3.002,6.081l3.921,3.925l-3.921,3.925V6.081z M3.56,14.471l3.914-3.916l2.253,2.253c0.153,0.153,0.395,0.153,0.548,0l2.253-2.253l3.913,3.916H3.56z M16.999,13.931l-3.921-3.925l3.921-3.925V13.931z"></path>
+						</svg>
             </a>
 
             <a href="https://github.com/CameronAllan16">
@@ -28,7 +30,7 @@ function Footer() {
             <a href="https://www.shutterstock.com/g/Cameron+Allan?_gl=1*ff2lww*_ga*MTA5NTA3MTY3MC4xNjgxMTgxMTQw*_ga_5JRYE4Y8J9*MTY4MTE4MTE0MC4xLjEuMTY4MTE4MTQ0Ny40MC4wLjA.*_fplc*WXphV09SR0hod2xrb3RuTnNLalEyV0t4dktxTzBVOVJEdFV4VU8lMkY5Sk5UOXl6YXVveTQ0N3d0bERnZkZURFU1NjRKVWx3UXZZTnlHNDJKbFh6bXl4d3hJQ0swOUdiQU91dWUxOVN6QzlhYXdOU3FMdERLcjhuRVQ2bXNrcWclM0QlM0Q.&rid=250349332">
               <img className="shutterstock-icon" src=" data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAMAAACdt4HsAAAAA3NCSVQICAjb4U/gAAAACXBIWXMAAAI7AAACOwEsccu1AAAAGXRFWHRTb2Z0d2FyZQB3d3cuaW5rc2NhcGUub3Jnm+48GgAAAGxQTFRF/////wAA/xIA/yIA/yAA/xoA/xYA/xsF/xkE/xoE/xgD/xkD/xkD/xkD/xsC/xsE/xsE/xsD/xoD/xoD/xkD/xoD/xoD/xkD/xoD/xoC/xoC/xsC/xoD/xoD/xoD/xoD/xoD/xoD/xoD/xoDodBOmwAAACN0Uk5TAAEODxAUFzA9RElRXWV8j5CZnamrsLS1w8/Q0+Hp6/Dx9f2DhrWuAAAA0ElEQVRYw+3Xxw7DIBAE0LXjgnvccS/8/z/mApai5AKjXGLmzhMSK1ZDxPghDHNwRsROAeRkxAUUTgcGHCTAWOATGMos9B4qky6wJPSWUROofYKAiggCZhcEIsKAjkAgR4FYHnLi4qmy6gCBBFLDSdzVtRtDYFNAa4E7A7sn09u98PdArx57NwRaNW6bBe4MNAowHaRUng90Rnm9dm0ROxKIdYDxy97PUaADgUhggDuDQCUgwK8FBCSL7pc2eVfCrBzsXvgBABdPuPrC5Rut/y/hPOsnM0XgrgAAAABJRU5ErkJggg==" alt="Shutterstock"/>
             </a>
-            <p className="phone-number">317-900-6507</p>
+            <p className="phone-number"></p>
         </div>
       </div>
     </footer>
