@@ -1,3 +1,5 @@
+* {background-color: lightgray}
+
 .portfolio-header {
   background-color: #282c34;
   display: flex;
@@ -14,13 +16,16 @@
   color: white;
 }
 
-.App {
-  text-align: center;
+.app {
+  font-family: 'Roboto Mono', monospace;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
   min-height: 100vh;
+  margin: 25vh auto;
 }
 
 .subHeader {
   width: 100%;
   height: 350px;
 }
-
