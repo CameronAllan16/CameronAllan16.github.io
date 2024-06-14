@@ -1,31 +1,31 @@
-import React from "react";
-import { BrowserRouter as Router, Routes, Route, NavLink } from 'react-router-dom';
-import Portfolio from "./Portfolio";
-import Projects from "./Projects";
-import About from "./About";
+import React from 'react';
+import { NavLink } from 'react-router-dom';
+import '../assets/navbar.css';
 
 function NavBar() {
   return (
-    <Router>
+    <div className='nav-bar'>
+      <p className='title'>Cameron Allan</p>
       <nav>
         <ul>
           <li>
-            <NavLink to="/">Home</NavLink>
+            <NavLink className="link" to="/">
+              Home
+            </NavLink>
           </li>
           <li>
-            <NavLink to="/about">About</NavLink>
+            <NavLink className="link" to="/About">
+              About
+            </NavLink>
           </li>
           <li>
-            <NavLink to="/projects">Portfolio</NavLink>
+            <NavLink className="link" to="/Projects">
+              Projects
+            </NavLink>
           </li>
         </ul>
       </nav>
-      <Routes>
-        <Route path="/" exact component={<Portfolio/>} />
-        <Route path="/about" component={<About/>} />
-        <Route path="/projects" component={<Projects/>} />
-      </Routes>
-    </Router>
+    </div>
   );
 }
 
