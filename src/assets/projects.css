@@ -1,5 +1,3 @@
-
-
 .Projects {
   margin: 25vh auto;
   font-family: 'Roboto Mono', monospace;
@@ -10,32 +8,83 @@
 .section-title {
   text-align: center;
   font-weight: bold;
-  margin-bottom: 30px;
+  margin: 10px 30px;
 }
 
 .row {
   display: flex;
   flex-wrap: wrap;
-  margin: 0 -15px;
 }
 
 .col-sm-6 {
-  width: calc(50% - 30px);
-  margin: 0 15px 30px;
+  border: 0.5px solid gray;
+  margin: 0px 30px 30px;
+  border-radius: 15px;
+  box-shadow: outset;
+  display: grid;
+  grid-template-columns: 10fr 0.5fr;
+  filter: drop-shadow(0 0 0.1rem black);
+  background-color: lightslategrey;
 }
 
 .project-image {
   width: 100%;
-  margin-bottom: 10px;
 }
 
-h3 {
-  font-size: 1.5rem;
-  font-weight: bold;
-  margin-bottom: 10px;
+.inner-content {
+  display: flex;
+  background-color: lightslategray;
+  margin: 2% 2%;
 }
 
-p {
-  font-size: 1rem;
-  margin-bottom: 0;
+.card-content {
+  height: 60%;
+  gap: 1em;
+  margin: 0 25px;
+  background-color: lightslategrey;
+}
+
+.col-sm-6 h3 {
+  margin: 15px 20px;
+  background-color: lightslategrey;
+}
+
+.card-content p {
+  display: flex;
+  background-color: lightslategray;
+}
+
+.svg-icon {
+  width: 1em;
+  height: 1em;
+  background-color: lightslategray;
+}
+
+.svg-icon path,
+.svg-icon polygon,
+.svg-icon rect {
+  fill: black;
+}
+
+.svg-icon circle {
+  stroke: #4691f6;
+  stroke-width: 1;
+}
+
+.expanded-project {
+  background-color: lightslategray;
+  color: inherit;
+  border: none;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
+}
+
+.go-button {
+  background-color: lightslategrey;
+  display: flex;
+  justify-content: center;
+  vertical-align: middle;
+  border-radius: 15px;
 }
