@@ -6,7 +6,7 @@ function Portfolio() {
   return (
     <div className="app">
       <NavBar/>
-      <p>Some content will soon be here.</p>
+      <p className="content">Some content will soon be here.</p>
       <Footer />
     </div>
   );
