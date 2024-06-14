@@ -22,6 +22,11 @@
   width: 100%;
 }
 
+.body-content {
+  display: flex;
+  justify-content: center;
+}
+
 .header {
   text-align: center;
 }
