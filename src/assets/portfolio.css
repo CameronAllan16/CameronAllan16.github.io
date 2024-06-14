@@ -1,19 +1,5 @@
-* {background-color: lightgray}
-
-.portfolio-header {
-  background-color: #282c34;
-  display: flex;
-  font-size: calc(10px + 2vmin);
-  margin: 25px 15px;
-  min-height: 10%;
-  color: white;
-}
-
-.App-header {
-  background-color: #282c34;
-  display: flex;
-  font-size: calc(10px + 2vmin);
-  color: white;
+* {
+  background-color: lightgray;
 }
 
 .app {
@@ -25,7 +11,17 @@
   margin: 25vh auto;
 }
 
+.content-wrapper {
+  margin: 5vh 5vw;
+  border-right: 1px solid black;
+  border-left: 1px solid black;
+  height: 100vh;
+}
+
 .content {
-  display: flex;
-  justify-content: center;
+  width: 100%;
+}
+
+.header {
+  text-align: center;
 }
