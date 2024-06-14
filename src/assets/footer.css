@@ -45,3 +45,10 @@
   stroke: #4691f6;
   stroke-width: 1;
 }
+
+.copywrite {
+  line-height: 5px;
+  color: black;
+  font-weight: 100;
+  font-size: small;
+}

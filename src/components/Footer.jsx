@@ -7,6 +7,7 @@ function Footer() {
       <div className="footer-content-container">
         
         <div className="socials">
+          
           <a className="link" href="mailto:camallan16@gmail.com">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -57,6 +58,7 @@ function Footer() {
                 clip-rule="evenodd"></path>
             </svg>
           </a>
+          <p className='copywrite' >Cameron Allan 2024 ©</p>
         </div>
       </div>
     </footer>
