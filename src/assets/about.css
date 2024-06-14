@@ -1,7 +1,6 @@
 
 .about {
   max-width: 100%;
-  margin: 25vh auto;
   background-color: lightgray;
   font-family: 'Roboto Mono', monospace;
   font-optical-sizing: auto;
@@ -23,7 +22,6 @@
 
 .col-md-6 {
   width: calc(50% - 30px);
-  margin: 0 15px 30px;
 }
 
 .profile-image {
