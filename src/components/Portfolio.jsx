@@ -11,7 +11,7 @@ function Portfolio() {
         <div className="content">
           <div className='header-wrapper'>
             <div className='header'>
-                <h2>Hello, my name is Cameron</h2>
+                <h2>Hello, welcome to my site</h2>
             </div>
           </div>
           <div className="body">

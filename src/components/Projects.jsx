@@ -6,25 +6,24 @@ function Projects() {
   return (
     <div className="Projects">
       <NavBar />
-      <div className='content-wrapper'>
+      <div className="content-wrapper">
         <div className="row">
-          <div className="col-sm-6">
+          <div className="card">
             <div className="card-content">
               <h3>Estate Vault</h3>
-              <div className="inner-content">
-                <img
+
+              {/* <img
                   className="project-image"
                   src="https://user-images.githubusercontent.com/70381945/206295189-05931d0e-68da-4a60-b11c-88353e50a58d.png"
                   alt="Estate Vault"
-                />
-                <p>
-                  EstateVault is an all-in-on estate management system where estate owners can store
-                  and manage their important estate documents, such as wills, power of attorney, but
-                  also a place to store external account information like Facebook login
-                  information. The system also allows for users to upload and share estate documents
-                  with approved connections with the user.
-                </p>
-              </div>
+                /> */}
+              <p>
+                EstateVault is an all-in-on estate management system where estate owners can store
+                and manage their important estate documents, such as wills, power of attorney, but
+                also a place to store external account information like Facebook login information.
+                The system also allows for users to upload and share estate documents with approved
+                connections with the user.
+              </p>
             </div>
             <div className="go-button">
               <button className="expanded-project">
@@ -34,14 +33,15 @@ function Projects() {
               </button>
             </div>
           </div>
-          <div className="col-sm-6">
+          <div className="card">
             <div className="card-content">
-              <h3>Cooking Assistant</h3>
               <div className="card-content">
-                <img className="project-image" src="image-2.jpg" alt="Cooking Assistant" />
+                <h3>Portfolio</h3>
+                {/* <img className="project-image" src="image-2.jpg" alt="Portfolio" /> */}
                 <p>
-                  A simple application that will return a list of recipes from the user's ingredient
-                  input
+                  Believe it or not, this site was built entirely from scratch by me, using
+                  React.JS. If you would like take a look at the repository if it holds information
+                  you require to look at.
                 </p>
               </div>
             </div>

@@ -4,6 +4,7 @@
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
+  width: 100%;
 }
 .section-title {
   text-align: center;
@@ -15,52 +16,61 @@
   grid-template-columns: 1fr 1fr;
 }
 
-.col-sm-6 {
+.card {
   border: 0.5px solid gray;
   margin: 30px 30px 30px;
-  border-radius: 15px;
-  box-shadow: outset;
   display: grid;
   grid-template-columns: 10fr 0.5fr;
-  filter: drop-shadow(0 0 0.1rem black);
-  background-color: lightslategrey;
   cursor: pointer;
   z-index: 1;
+  max-height: 350px;
+  &:hover {
+    transition: all 0.2s ease-out;
+    box-shadow: 0px 4px 8px rgba(38, 38, 38, 0.2);
+    top: -4px;
+    border: 1px solid black;
+  }
+
+  &:before {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    top: -16px;
+    right: -16px;
+    background: #00838d;
+    height: 32px;
+    width: 32px;
+    transform: scale(2);
+    transform-origin: 50% 50%;
+    transition: transform 0.15s ease-out;
+  }
+
+  &:hover:before {
+    transform: scale(2.15);
+  }
 }
 
 .project-image {
   width: 100%;
 }
 
-.inner-content {
-  display: grid;
-  grid-template-rows: 1fr 1fr;
-  background-color: lightslategray;
-  margin: 2% 2%;
-}
+
 
 .card-content {
-  z-index: -1;
-  height: 60%;
-  gap: 1em;
-  margin: 0 25px;
-  background-color: lightslategrey;
+  margin: 0 2vw;
 }
 
 .col-sm-6 h3 {
   margin: 15px 20px;
-  background-color: lightslategrey;
 }
 
 .card-content p {
-  display: flex;
-  background-color: lightslategray;
+  margin-bottom: 20px;
 }
 
 .svg-icon {
   width: 1em;
   height: 1em;
-  background-color: lightslategray;
 }
 
 .svg-icon path,
@@ -75,7 +85,6 @@
 }
 
 .expanded-project {
-  background-color: lightslategray;
   color: inherit;
   border: none;
   padding: 0;
@@ -85,9 +94,7 @@
 }
 
 .go-button {
-  background-color: lightslategrey;
   display: flex;
   justify-content: center;
   vertical-align: middle;
-  border-radius: 15px;
 }
