@@ -7,13 +7,12 @@
 }
 .section-title {
   text-align: center;
-  font-weight: bold;
-  margin: 10px 30px;
+  font-size: 2rem;
 }
 
 .row {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
 
 .col-sm-6 {
@@ -25,6 +24,8 @@
   grid-template-columns: 10fr 0.5fr;
   filter: drop-shadow(0 0 0.1rem black);
   background-color: lightslategrey;
+  cursor: pointer;
+  z-index: 1;
 }
 
 .project-image {
@@ -32,12 +33,14 @@
 }
 
 .inner-content {
-  display: flex;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
   background-color: lightslategray;
   margin: 2% 2%;
 }
 
 .card-content {
+  z-index: -1;
   height: 60%;
   gap: 1em;
   margin: 0 25px;

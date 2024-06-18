@@ -8,11 +8,10 @@
   font-weight: 400;
   font-style: normal;
   min-height: 100vh;
-  margin: 25vh auto;
 }
 
 .content-wrapper {
-  margin: 5vh 5vw;
+  margin: 0vh 4vw;
   border-right: 1px solid black;
   border-left: 1px solid black;
   height: 100vh;
@@ -29,4 +28,8 @@
 
 .header {
   text-align: center;
+}
+
+.header-wrapper {
+  padding-top: 10vh;
 }

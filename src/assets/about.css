@@ -14,7 +14,7 @@
   margin-bottom: 30px;
 }
 
-.row {
+.col {
   display: flex;
   flex-wrap: wrap;
 }
@@ -29,7 +29,7 @@
 }
 
 h3 {
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-weight: bold;
   margin-bottom: 20px;
 }
@@ -37,4 +37,19 @@ h3 {
 p {
   font-size: 1rem;
   margin-bottom: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+    .profile-image {
+      max-width: 100%;
+      margin: 0;
+    }
+
+    .col-md-6 {
+      width: 100%;
+      display: flexbox;
+    }
+    .about {
+      margin: 10vh 0 25vh;
+    }
 }
