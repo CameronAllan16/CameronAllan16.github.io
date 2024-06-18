@@ -6,26 +6,28 @@
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
+  margin-top: 65.4px;
 }
 
 .section-title {
   text-align: center;
   font-weight: bold;
-  margin-bottom: 30px;
 }
 
 .col {
   display: flex;
   flex-wrap: wrap;
+  height: 100vh;
 }
 
 .col-md-6 {
   width: calc(50% - 30px);
+  margin: 4vh auto;
 }
 
 .profile-image {
   max-width: 385px;
-  margin: 0 10vw;
+  margin: 3vh 4vw;
 }
 
 h3 {
