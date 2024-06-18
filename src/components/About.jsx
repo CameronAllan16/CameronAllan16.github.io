@@ -8,7 +8,7 @@ function About() {
     <div className="about">
       <NavBar/>
       <h3 className="section-title">About Me</h3>
-      <div className="row">
+      <div className="col">
         <div className="col-md-6">
           <img className="profile-image" src={ProfileImage} alt="Cameron Allan" />
         </div>

@@ -4,8 +4,8 @@ import '../assets/navbar.css';
 
 function NavBar() {
   return (
-    <div className='nav-bar'>
-      <p className='title'>Cameron Allan</p>
+    <div className="nav-bar">
+      <p className="title">Cameron Allan</p>
       <nav>
         <ul>
           <li>
