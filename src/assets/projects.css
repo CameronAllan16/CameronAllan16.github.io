@@ -98,3 +98,18 @@
   justify-content: center;
   vertical-align: middle;
 }
+
+
+@media only screen and (max-width: 500px) {
+  .row {
+    display: block;
+  }
+
+  .card {
+    margin: 30px 12px 30px;
+  }
+
+  .content-wrapper{
+    margin: 0vh 3vw;
+  }
+}

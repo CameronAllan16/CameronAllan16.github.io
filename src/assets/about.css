@@ -1,4 +1,3 @@
-
 .about {
   max-width: 100%;
   background-color: lightgray;
@@ -42,16 +41,25 @@ p {
 }
 
 @media only screen and (max-width: 600px) {
-    .profile-image {
-      max-width: 100%;
-      margin: 0;
-    }
+  .profile-image {
+    max-width: 60%;
+    margin: 1vh 18vw 1vh;
+  }
 
-    .col-md-6 {
-      width: 100%;
-      display: flexbox;
-    }
-    .about {
-      margin: 10vh 0 25vh;
-    }
+  .col {
+    height: auto;
+  }
+
+  .col-md-6 {
+    width: 95%;
+    display: flexbox;
+    margin: 0 3vw;
+  }
+  .about {
+    margin: 10vh 0 15vh;
+  }
+
+  .content-wrapper {
+    height: 110vh;
+  }
 }
