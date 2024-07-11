@@ -23,6 +23,7 @@
 .link {
   text-decoration: none;
   color: royalblue;
+  font-size: 18px;
 }
 
 .link:hover {
